@@ -1,0 +1,2 @@
+Favicon generado con http://antifavicon.com/
+

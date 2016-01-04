@@ -1,0 +1,80 @@
+/* Sticky footer styles-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 120px;
+}
+
+.base_font{
+  font-family: 'Lato', sans-serif;
+}
+
+.base_header_font {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+#header .navbar-default {
+	background-color: #193441;
+}
+
+#header .navbar-default .nav-item a {
+	color: #fff;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+#header .navbar-default .nav-item a:hover {
+    color: #1ABC9C;
+}
+
+#footer a {
+	color: #fff;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+#footer a:hover {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+#base_header_botones {
+  margin-top: 12px;
+}
+
+#base_header_hamburguesa{
+  margin-top: 20px;
+}
+
+#base_header_hamburguesa:hover, #base_header_hamburguesa:focus {
+  background-color: #1ABC9C;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /*height: 55px;*/
+  background-color: #193441;
+  padding-top: 8px;
+}
+
+#base_logo {
+   background-image: url('/images/logo_blanco.png');
+   background-size:     cover;
+   background-repeat:   no-repeat;
+   background-position: center center;
+   width: 150px;
+   height: 55px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+#base_logo:hover {
+   background-image: url('/images/logo_hover.png');
+}
