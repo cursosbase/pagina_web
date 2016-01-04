@@ -1,14 +1,4 @@
-/* Sticky footer styles-------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 120px;
-}
-
+/* FONT FONT FONT */
 .base_font{
   font-family: 'Lato', sans-serif;
 }
@@ -19,6 +9,22 @@ body {
 	font-size: 15px;
 }
 
+/* COMMON COMMON COMMON */
+.affix {
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+.navbar-default{
+  border: 0px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+/* HEADER HEADER HEADER*/
 #header .navbar-default {
 	background-color: #193441;
 }
@@ -32,16 +38,6 @@ body {
     color: #1ABC9C;
 }
 
-#footer a {
-	color: #fff;
-	color: rgba(255, 255, 255, 0.8);
-}
-
-#footer a:hover {
-    color: #1ABC9C;
-    text-decoration: none;
-}
-
 #base_header_botones {
   margin-top: 12px;
 }
@@ -52,16 +48,6 @@ body {
 
 #base_header_hamburguesa:hover, #base_header_hamburguesa:focus {
   background-color: #1ABC9C;
-}
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  /*height: 55px;*/
-  background-color: #193441;
-  padding-top: 8px;
 }
 
 #base_logo {
@@ -77,4 +63,35 @@ body {
 
 #base_logo:hover {
    background-image: url('/images/logo_hover.png');
+}
+
+/* FOOTER FOOTER FOOTER*/
+#footer a {
+	color: #fff;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+#footer a:hover {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /*height: 55px;*/
+  background-color: #193441;
+  padding-top: 8px;
+}
+
+/* CUERPO CUERPO CUERPO */
+#cuerpo_top {
+    background: url("/images/background.jpg") center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
 }
