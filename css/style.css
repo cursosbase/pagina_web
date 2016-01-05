@@ -1,12 +1,36 @@
-/* FONT FONT FONT */
-.base_font{
-  font-family: 'Lato', sans-serif;
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
 }
 
+/* FONT FONT FONT */
 .base_header_font {
+  font-family: 'Lato', sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 15px;
+}
+
+.base_footer_font {
+  font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.font_gigante{
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+}
+
+.font_semigigante{
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
 }
 
 /* COMMON COMMON COMMON */
@@ -22,6 +46,18 @@
 
 .navbar{
   margin-bottom: 0px;
+}
+
+.sharp {
+  border-radius:0;
+}
+
+.btn-primary {
+    background-color: #193441;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #1ABC9C;
 }
 
 /* HEADER HEADER HEADER*/
@@ -93,5 +129,24 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 300px;
+    min-height: 300px;
+    position: relative;
+    padding: 60px 0 60px 0;
+    margin-top: 75px;
+}
+
+#cuerpo_top_content{
+  margin-top: 40px;
+}
+
+.mensaje1{
+
+}
+
+.mensaje2{
+
+}
+
+#btn_presencial{
+  margin-right: 20px;
 }
