@@ -4,6 +4,11 @@ body{
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  height: 100%;
+}
+
+a, a:active, a:hover, a:focus {
+    text-decoration: none;
 }
 
 /* FONT FONT FONT */
@@ -113,13 +118,9 @@ body{
 }
 
 #footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  /*height: 55px;*/
   background-color: #193441;
   padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 /* CUERPO CUERPO CUERPO */
@@ -139,12 +140,109 @@ body{
   margin-top: 40px;
 }
 
-.mensaje1{
-
+h2.homepage-section-title {
+    text-align: center;
+    font-weight: 200;
+    font-size: 31px;
+    padding-bottom: 35px;
+    padding-top: 35px;
 }
 
-.mensaje2{
+.course-listing {
+    background-color: #f7f7f7;
+    box-shadow: 0px 1px #d7e1e2;
+    border: 1px solid #d7e1e2;
+    padding: 0px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    height: 390px;
+}
 
+.course-listing .course-box-image-container {
+    overflow: hidden;
+    max-height: 208px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+#course-box-image-container-react {
+  background-color: #222222;
+}
+
+#course-box-image-container-flux {
+  background-color: #3b3738;
+}
+
+#course-box-image-container-html {
+  background-color: #FFF;
+}
+
+.course-listing .course-box-image-container .course-box-image {
+    display: block;
+    margin: auto;
+    max-height: 208px;
+}
+
+.course-listing .course-listing-title {
+    color: #2b3636;
+    line-height: 25px;
+    padding: 16px 16px 4px 16px;
+    font-weight: bold;
+    font-size: 18px;
+    max-height: 70px;
+    overflow: hidden;
+}
+
+.course-listing:hover {
+    box-shadow: 0px 0px 0px 1px #1ABC9C;
+    border: 1px solid #1ABC9C;
+    -webkit-transition: all linear 0.1s;
+    transition: all linear 0.1s;
+}
+
+.course-listing:hover .course-listing-title {
+    color: #1ABC9C;
+    transition: all linear 0.1s;
+}
+
+.course-listing .course-listing-subtitle {
+    color: #586f6f;
+    padding: 5px 16px;
+    font-weight: 200;
+    font-size: 14px;
+    max-height: 65px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.course-listing .course-listing-extra-info {
+    padding: 16px;
+    bottom: 50px;
+    left: 16px;
+    position: absolute;
+}
+
+.course-listing .course-listing-extra-info .img-circle {
+    width: 30px;
+    height: 30px;
+}
+
+.course-listing .course-listing-extra-info .course-price {
+    color: #3e8f95 !important;
+    line-height: 34px;
+    color: #dff2f3;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.course-listing .course-listing-extra-info .course-author-name {
+    max-height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    font-weight: 200;
+    font-size: 15px;
+    padding-left: 5px;
 }
 
 #btn_presencial{
