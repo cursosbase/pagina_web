@@ -51,6 +51,7 @@ a, a:active, a:hover, a:focus {
 
 .navbar{
   margin-bottom: 0px;
+  border-radius: 0px;
 }
 
 .sharp {
