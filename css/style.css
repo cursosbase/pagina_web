@@ -45,10 +45,6 @@ a, a:active, a:hover, a:focus {
     z-index:10;
 }
 
-.navbar-default{
-  border: 0px;
-}
-
 .navbar{
   margin-bottom: 0px;
   border-radius: 0px;
@@ -68,7 +64,9 @@ a, a:active, a:hover, a:focus {
 
 /* HEADER HEADER HEADER*/
 #header .navbar-default {
+  height: 75px;
 	background-color: #193441;
+  border: 0px;
 }
 
 #header .navbar-default .nav-item a {
@@ -82,6 +80,10 @@ a, a:active, a:hover, a:focus {
 
 #base_header_botones {
   margin-top: 12px;
+}
+
+#base_div_botones{
+  background-color: #193441;
 }
 
 #base_header_hamburguesa{
@@ -278,4 +280,9 @@ h2.homepage-faq {
 
 #btn_presencial{
   margin-right: 20px;
+}
+
+/*for the blogger blog*/
+.content-inner{
+  margin-top: 45px;
 }
